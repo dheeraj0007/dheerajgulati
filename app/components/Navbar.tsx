@@ -10,7 +10,7 @@ function Navbar() {
   };
 
   return (
-    <div className="sticky top-3 mt-3 bg-white rounded-md md:rounded-full h-14 py-2  w-full max-w-[600px] uppercase pt-4 ">
+    <div className="mt-3 bg-white rounded-md md:rounded-full h-14 py-2 w-full max-w-[600px] uppercase pt-4">
       <div className="flex justify-between items-center px-2">
         <Link className="font-semibold text-xl ml-3" href={"/"}>
           Dheeraj
@@ -24,6 +24,9 @@ function Navbar() {
           </Link>
           <Link href={"/#faq"} className="hover:text-black">
             About me
+          </Link>
+          <Link href={"/snippets"} className="hover:text-black">
+            Snippets
           </Link>
           <Link
             href={"https://github.com/dheeraj0007"}
@@ -59,7 +62,7 @@ function Navbar() {
             ? "flex flex-col items-center justify-center space-y-2"
             : "hidden"
         }
-         text-xs sm:hidden text-gray-500 bg-white w-full h-40`}
+         text-xs sm:hidden text-gray-500 bg-white w-full h-44`}
       >
         <Link href={"/blogs"} className="hover:text-black">
           My Blogs
@@ -69,6 +72,9 @@ function Navbar() {
         </Link>
         <Link href={"/#faq"} className="hover:text-black">
           About me
+        </Link>
+        <Link href={"/snippets"} className="hover:text-black">
+          Snippets
         </Link>
         <Link
           href={"https://github.com/dheeraj0007"}
