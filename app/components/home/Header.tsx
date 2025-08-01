@@ -3,12 +3,12 @@ import Link from "next/link";
 
 function Header() {
   return (
-    <div className="p-4 w-full max-w-[600px] mx-auto mt-16 shadow-sm">
+    <div className="shadow-sm p-4 bg-white rounded-md">
       <div className="flex flex-col-reverse md:flex-row justify-between space-y-3">
         <div>
           <h1 className="font-bold text-2xl md:text-4xl">Dheeraj Gulati</h1>
           <p className="text-gray-600 mt-2">
-            I Design & develop The Frontend / Backend
+            I Design & develop The Frontend / Backend.
           </p>
         </div>
         <div>
@@ -17,7 +17,7 @@ function Header() {
             width={80}
             height={80}
             alt="profile"
-            className="rounded-sm mb-5 md:mb-0"
+            className="rounded-sm mb-5 md:mb-0 "
           />
         </div>
       </div>

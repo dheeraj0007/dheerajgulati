@@ -4,22 +4,21 @@ import React, { useState } from "react";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
-
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
 
   return (
-    <div className="mt-3 bg-white rounded-md md:rounded-full h-14 py-2 w-full max-w-[600px] uppercase pt-4">
+    <div className="mt-3 bg-white rounded-md md:rounded-full h-14 py-3 w-full max-w-[600px] uppercase pt-4">
       <div className="flex justify-between items-center px-2">
         <Link className="font-semibold text-xl ml-3" href={"/"}>
           Dheeraj
         </Link>
         <div className="hidden text-xs text-gray-500 sm:flex justify-around items-center space-x-2 mr-3">
-          <Link href={"/blogs"} className="hover:text-black">
+          <Link href={"/blogs"} className={`hover:text-black `}>
             My Blogs
           </Link>
-          <Link href={"/#work"} className="hover:text-black">
+          <Link href={"/#work"} className={`hover:text-black`}>
             Work
           </Link>
           <Link href={"/#faq"} className="hover:text-black">
