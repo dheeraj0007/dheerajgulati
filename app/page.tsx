@@ -2,6 +2,7 @@ import Header from "./components/home/Header";
 import Link from "next/link";
 import Skills from "./components/home/Skills";
 import Projects from "./components/home/Work";
+import Articles from "./components/home/Articles";
 
 export default function Home() {
   return (
@@ -10,7 +11,10 @@ export default function Home() {
       <div className="mx-4">
         <Header />
       </div>
-      <div className="mt-5 p-3 text-gray-600 grid grid-cols-1 md:grid-cols-2 gap-2 mx-4">
+      <div
+        className="mt-5 p-3 text-gray-600 grid grid-cols-1 md:grid-cols-2 gap-2 mx-4"
+        id="faq"
+      >
         <p>
           I am a full-stack developer. I have a passion for developing and
           designing websites and applications. I have experience in developing
@@ -37,8 +41,11 @@ export default function Home() {
       <div className="mx-4">
         <Skills />
       </div>
-      <div className="mx-4">
+      <div className="mx-4" id="work">
         <Projects />
+      </div>
+      <div className="mx-4">
+        <Articles />
       </div>
     </div>
   );

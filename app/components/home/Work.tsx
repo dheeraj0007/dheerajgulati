@@ -65,6 +65,7 @@ function Projects() {
                 width={220}
                 height={220}
                 alt={project.title}
+                className="mx-auto"
               />
               <div>
                 <h1 className="uppercase mb-3">Tech Stack:</h1>
