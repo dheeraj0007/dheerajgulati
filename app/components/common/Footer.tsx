@@ -4,7 +4,7 @@ import React from "react";
 function Footer() {
   return (
     <>
-      <div className="w-full max-w-[600px] mx-auto my-16 grid grid-cols-1 sm:grid-cols-2 gap-10 ">
+      <div className="w-full max-w-[600px] mx-auto my-16 grid grid-cols-1 sm:grid-cols-2 gap-10 px-2">
         <div>
           <h1 className="mb-4 text-2xl">Navigation</h1>
           <div className="text-gray-500 uppercase flex space-x-3 text-sm">

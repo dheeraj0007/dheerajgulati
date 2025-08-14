@@ -12,13 +12,16 @@ function Header() {
           </p>
         </div>
         <div>
-          <Image
-            src={"/profile.png"}
-            width={80}
-            height={80}
-            alt="profile"
-            className="rounded-sm mb-5 md:mb-0 "
-          />
+          <Link href={"https://x.com/dheeraj_gulati7"} target="_blank">
+            {" "}
+            <Image
+              src={"/profile.png"}
+              width={80}
+              height={80}
+              alt="profile"
+              className="rounded-sm mb-5 md:mb-0 "
+            />
+          </Link>
         </div>
       </div>
       <div>
