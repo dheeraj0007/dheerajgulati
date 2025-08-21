@@ -32,16 +32,11 @@ function Projects() {
       url: "https://ditly.vercel.app/",
     },
     {
-      title: "Amazon Clone",
-      headline: "An amazon clone",
-      img: "/projects/amazon.png",
-      techStack: [
-        "Nextjs, Typescript",
-        "Next-Auth",
-        "Razorpay ",
-        "Prisma, Postgresql",
-      ],
-      url: "https://amazon-clone2-xi.vercel.app/",
+      title: "SoulWork",
+      headline: "A platform for Soul and self improvement.",
+      img: "/projects/soulwork.png",
+      techStack: ["Nextjs, Typescript", "Framer Motion", "Shadcn ui"],
+      url: "https://soulwork.vercel.app",
     },
   ];
   return (
