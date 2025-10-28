@@ -9,8 +9,8 @@ function Footer() {
           <h1 className="mb-4 text-2xl">Navigation</h1>
           <div className="text-gray-500 uppercase flex space-x-3 text-sm">
             <Link href={"/#work"}>work</Link>
-            <Link href={"/#faq"}>About me</Link>
             <Link href={"/snippets"}>Snippets</Link>
+            <Link href={"/calendar"}>Calendar</Link>
           </div>
         </div>
         <div>
@@ -42,7 +42,7 @@ function Footer() {
         </div>
       </div>
       <div className="w-full max-w-[600px] mx-auto my-16">
-        <p>© 2024. All rights reserved</p>
+        <p>© 2025. All rights reserved</p>
         <p className="text-sm mt-4 text-gray-500">
           Designed by Dheeraj Gulati, built by Dheeraj Gulati. Inspired by the
           work of Tailwindcss
